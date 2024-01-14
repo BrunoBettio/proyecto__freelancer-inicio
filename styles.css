@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: rgb(12, 12, 40);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 2.5rem auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(12, 12, 55);
+    gap: 6rem;
+    width: 40vw;
+    max-width: 100rem;
+    min-width: 30rem;
+    margin: 0 auto;
+    border-radius: 2rem;
+    height: 4rem;
+}
+
+nav a {
+    font-size: 1.8rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    cursor: pointer;
+    color: rgb(120, 20, 147);
+}
+
+#inicio {
+    margin: 4rem auto;
+    max-width: 120rem;
+    height: 80rem;
+    background-image: url(./imagen-hero.webp);
+    background-position: center center;
+    object-fit: cover;
+    position: relative;
+}
+
+#inicio a {
+    position: absolute;
+    font-size: 2.5rem;
+    width: 30rem;
+    padding: 1rem;
+    font-weight: 600;
+    text-align: center;
+    color: #000000;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 2rem;
+    top: 50%; left: 35%;
+}
+
+form {
+    width: 60vw;
+    max-width: 80rem;
+    min-width: 30rem;
+    margin: 0 auto;
+    padding: 2rem;
+    border: none;
+}
+
+legend {
+    text-align: center;
+    font-size: 1.7rem;
+    color: #fefefe;
+}
+
+fieldset {
+    border: none;
+
+}
+
+input, label {
+    width: 100%;
+    display: block;
+    padding: 2rem;
+}
+
+input {
+    font-size: 1.5rem;
+}
+
+input[type="checkbox"] {
+    display: inline;
+    width: unset;
+    margin-right: .5rem;
+}
+
+label {
+    font-size: 1.7rem;
+    color: #ffffff;
+}
+
+textarea {
+    margin: 2rem auto;
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    width: 30vw;
+}
+
+input[type="submit"] {
+    width: 20vw;
+    border-radius: 2rem;
+    background-color: rgb(14,104, 147);
+    margin: 2rem auto;
+    font-size: 2rem;
+    cursor: pointer;
+    display: block;
+    outline: none;
+    border: none;
+}
+
+input:not([type="submit"],[type="checkbox"]) {
+    border-radius: 1.4rem;
+}
