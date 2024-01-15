@@ -52,17 +52,21 @@ nav a:hover {
 #inicio {
     margin: 4rem auto;
     max-width: 120rem;
+    width: 100%;
     height: 80rem;
     background-image: url(./imagen-hero.webp);
     background-position: center center;
-    object-fit: cover;
-    position: relative;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #inicio a {
-    position: absolute;
+    width: 60vw;
+    margin: 0 auto;
     font-size: 2.5rem;
-    width: 30rem;
+    max-width: 30rem;
     padding: 1rem;
     font-weight: 600;
     text-align: center;
@@ -70,8 +74,9 @@ nav a:hover {
     background-color: #ffffff;
     text-decoration: none;
     border-radius: 2rem;
-    top: 50%; left: 35%;
+    z-index: 100;
 }
+
 
 form {
     width: 60vw;
@@ -119,11 +124,11 @@ textarea {
     display: block;
     text-align: center;
     font-size: 2rem;
-    width: 30vw;
+    width: 100%;
 }
 
 input[type="submit"] {
-    width: 20vw;
+    width: 100%;
     border-radius: 2rem;
     background-color: rgb(14,104, 147);
     margin: 2rem auto;
